@@ -15,7 +15,7 @@ def predict_page():
 
     st.header("HEART DISEASE PREDICTION")
 
-    st.write("Enter your details for prediction :)...")
+    st.write("Enter your details for prediction:")
 
     # Input fields
     age = st.slider("Age", 0, 100, step=1)
